@@ -1,0 +1,159 @@
+[
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/pamao.png", "imagens/pamao2.png"], 
+        "nome": "PA de Mão",
+        "tags": ["pa de", "mao"],
+        "anatomia": ["falanges", "metacarpos", "ossos do carpo", "radio/ulna distal"],
+        "criterios": ["dedos separados", "sem rotação", "visualização de 2,5cm do radio e ulna"],   
+        "tecnica": {
+            "chassi": "18x24, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "minima de 102 cm"
+        },
+        "patologias": ["fraturas", "luxações", "corpos estranhos", "osteoporose", "osteoartrite"]},
+
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/oblmao.png", "imagens/oblmao2.png"], 
+        "nome": "OBL de Mão",
+        "tags": ["obliqua", "mao"],
+        "anatomia": ["falanges", "sessamoides", "metacarpos", "ossos do carpo", "radio/ulna distal"],
+        "criterios": ["dedos estendidos e separados", "rotação de 45 graus", "espaço articular aberto", "visualização de 2,5cm do radio e ulna", "sobreposição parcial do 2º e 5º metacarpo"],   
+        "tecnica": {
+            "chassi": "18x24, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "minima de 102 cm"
+        },
+        "patologias": ["fraturas", "luxações", "corpos estranhos", "osteoporose", "osteoartrite"]
+    },
+    
+
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/papunho.png", "imagens/papunho2.png"],
+        "nome": "PA de Punho",
+        "tags": ["pa de", "rotina de"],
+        "anatomia": [
+            "fileira proximal (escafoide, semilunar, piramidal, pisiforme)", 
+            "fileira distal (trapézio, trapezoide, capitato, hamato)", 
+            "radio/ulna distal"],
+        "criterios": [
+            "radio/ulna distal", 
+            "ossos do carpo centralizados", 
+            "espaços intercarpais livres/abertos", 
+            "metade proximal do metacarpo", 
+            "partes moles e trabeculado osseo" ],
+        "tecnica": {
+            "chassi": "18x24, sentido longitudinal",
+            "rc": "perpendicular",  
+            "dff": "minima de 102 cm"},
+        "patologias": ["fratura dos ossos do carpo", "fratura no processo estiloide", "fratura distal radio", "osteomielite", "artrite"]
+    },
+
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/pepunho.png", "imagens/pepunho2.png"],
+        "nome": "Perfil de Punho",
+        "tags": ["rotina de", "perfil de"],
+        "anatomia": [
+            "radio/ulna sobrepostos", 
+            "ossos do carpo", 
+            "mediometacarpo"],
+        "criterios": [
+            "radio/ulna alinhados, cabeça da ulna superposta ao radio", 
+            "segundo ao quinto metacarpo sobrepostos/alinhados", 
+            "raio central no centro do carpo"],
+        "tecnica": {
+            "chassi": "18x24, sentido longitudinal",
+            "rc": "perpendicular",  
+            "dff": "minima de 102 cm"},
+        "patologias": ["fratura do radio/ulna distal", "luxação", "osteoartrite"]
+    },
+
+
+    {"categoria": "membros superiores",
+        "nome": "AP e Perfil de Rádio e Ulna",
+        "tags": ["antebraco"],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+    
+    {"categoria": "membros superiores",
+        "nome": "AP e Perfil de Úmero",
+        "tags": ["braco"],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+    
+    {"categoria": "membros superiores",
+        "nome": "AP de ombro",
+        "tags": ["perfil de ombro"],
+        "tecnica": {
+            "chassi": "24x30, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+            
+    {"categoria": "membros superiores",
+        "nome": "y escapular",
+        "tecnica": {
+            "chassi": "24x30, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "minima de 1 metro"}},
+
+
+            
+    {"categoria": "membros inferiores",
+        "nome": "AP e OBL de Pé",
+        "tecnica": {
+            "chassi": "18x24, sentido longitudinal",
+            "rc": "Angulação de 10° cefálico",
+            "dff": "1 metro"}},
+    
+    {"categoria": "membros inferiores",
+        "nome": "AP e Perfil de Calcâneo",
+        "tecnica": {
+            "chassi": "18x24, sentido transversal",
+            "rc": "angulacao cefálica de 40°",
+            "dff": "1 metro"}},
+
+    {"categoria": "membros inferiores",
+        "nome": "AP e Perfil de Tornozelo",
+        "tecnica": {
+            "chassi": "24x30, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+
+    {"categoria": "membros inferiores",
+        "nome": "AP e Perfil de Perna",
+        "tags": ["tibia", "fibula"], 
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal ou diagonal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+
+    {"categoria": "membros inferiores",
+        "nome": "AP e Perfil de Joelho",
+        "tecnica": {
+            "chassi": "24x30, sentido longitudinal",
+            "rc": "3° a 5° cefálico",
+            "dff": "1 metro"}},
+
+     {"categoria": "membros inferiores",
+        "nome": "AP e Perfil de Femur",
+        "tags": ["coxa"],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}},
+
+    {"categoria": "membros inferiores",
+        "nome": "AP e Pelve",
+        "tags": ["bacia"],
+        "tecnica": {
+            "chassi": "35x43, sentido transversal",
+            "rc": "perpendicular",
+            "dff": "1 metro e 20"}}
+
+    
+
+    
+]
