@@ -43,7 +43,7 @@
             "partes moles e trabeculado osseo" ],
         "tecnica": {
             "chassi": "18x24, sentido longitudinal",
-            "rc": "perpendicular",  
+            "rc": "raio perpendicular direcionado no meio do punho",  
             "dff": "minima de 102 cm"},
         "patologias": ["fratura dos ossos do carpo", "fratura no processo estiloide", "fratura distal radio", "osteomielite", "artrite"]
     },
@@ -62,28 +62,135 @@
             "raio central no centro do carpo"],
         "tecnica": {
             "chassi": "18x24, sentido longitudinal",
-            "rc": "perpendicular",  
-            "dff": "minima de 102 cm"},
+            "rc": "raio perpendicular direcionado no meio do punho",  
+            "dff": "mínima de 100 cm"},
         "patologias": ["fratura do radio/ulna distal", "luxação", "osteoartrite"]
     },
 
 
     {"categoria": "membros superiores",
-        "nome": "AP e Perfil de Rádio e Ulna",
+        "imagem": ["imagens/apdeantebraco.png"],
+        "nome": "AP de Antebraço",
         "tags": ["antebraco"],
+        "anatomia": [
+            "rádio/ulna",
+            "úmero distal",
+            "fileira proximal do carpo"],
+        "criterios": ["rádio e ulna paralelos, sem rotação",
+            "articulação completa do punho e do cotovelo",
+            "tuberosidade, cabeça e colo do rádio minimamente sobrepostos pela ulna proximal",
+            "espaços articulares moderadamente abertos"],
         "tecnica": {
             "chassi": "35x43, sentido longitudinal",
-            "rc": "perpendicular",
-            "dff": "1 metro"}},
+            "rc": "raio perpendicular direcionado no terço médio do antebraço",
+            "dff": "mínima de 1 metro"},
+        "patologias": [
+            "fraturas",
+            "luxações",
+            "osteoartrite ou artrite"]
+    },
     
     {"categoria": "membros superiores",
-        "nome": "AP e Perfil de Úmero",
+        "imagem": ["imagens/perfildeantebraco.png"],
+        "nome": "Perfil de Antebraço",
+        "tags": ["antebraco"],
+        "anatomia": [
+            "rádio/ulna",
+            "úmero distal",
+            "fileira proximal do carpo"],
+        "criterios": ["cotovelo fletido a 90 graus",
+            "perfil verdadeiro do antebraço, rádio e ulna sobrepostos distalmente",
+            "epicôndilos umerais superpostos",
+            "cabeça do rádio superposta ao processo coronoide"
+            ],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "raio perpendicular direcionado no terço médio do antebraço",
+            "dff": "mínima de 1 metro"},
+        "patologias": [
+            "fraturas",
+            "luxações",
+            "osteoartrite ou artrite"]   
+    },
+
+
+
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/apcotovelo.png", "imagens/apcotovelo2.png"],
+        "nome": "AP de Cotovelo",
         "tags": ["braco"],
+        "anatomia": [
+            "úmero distal",
+            "rádio e ulna proximal"
+        ],
+        "criterios": [
+            "ausência de rotação",
+            "epicôndilos visualizados em perfil",
+            "cabeça e colo radiais separados ou levemente superpostos pela ulna "
+        ],
+        "tecnica": {
+            "chassi": "24x30, sentido longitudinal",
+            "rc": "raio perpendicular direcionado ao ponto médio do cotovelo",
+            "dff": "1 metro"},
+        "patologias": [
+            "fraturas",
+            "luxaçãoes",
+            "osteomielite ou artrite"
+        ]  
+    },
+
+    {"categoria": "membros superiores",
+        "imagem": ["imagens/perfilcotovelo.png", "imagens/perfilcotovelo2.png"],
+        "nome": "Perfil de Cotovelo",
+        "tags": ["braco"],
+        "anatomia": [
+
+        ],
+        "criterios": [
+
+        ],
         "tecnica": {
             "chassi": "35x43, sentido longitudinal",
             "rc": "perpendicular",
-            "dff": "1 metro"}},
+            "dff": "mínima de 1 metro"},
+        "patologias": [
+            "fraturas",
+            "luxações",
+            "osteomielite ou artrite",
+            "possível visualização de deslocamento dos coxins gordurosos"
+        ]
+    },
     
+
+    {"categoria": "membros superiores",
+        "imagem": [],
+        "nome": "AP de Úmero",
+        "tags": ["braco"],
+        "anatomia": [],
+        "criterios": [],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}
+    },
+
+    {"categoria": "membros superiores",
+        "imagem": [],
+        "nome": "Perfil de Úmero",
+        "tags": ["braco"],
+        "anatomia": [
+
+        ],
+        "criterios": [
+
+        ],
+        "tecnica": {
+            "chassi": "35x43, sentido longitudinal",
+            "rc": "perpendicular",
+            "dff": "1 metro"}
+    },
+
+
     {"categoria": "membros superiores",
         "nome": "AP de ombro",
         "tags": ["perfil de ombro"],

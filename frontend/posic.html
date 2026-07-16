@@ -10,6 +10,11 @@
     <!-- Cabeçalho -->
     <header>
         <h1>Posicionamento Radiografico.</h1>
+        <button id="abrirCalculadora"> 
+            Calculadora
+        </button>
+
+
     </header>
 
     <div id="container">
@@ -29,6 +34,19 @@
     <div id="incidencias">
         <input type="button" value="Voltar" id="voltar">
     </div>
+
+    <section id="calculadora">
+        <h2>Calculadora de Kv</h2>
+            Espessura: <input type="number" id="espessura">
+            constante: <input type="number" id="constante">
+        <button id="calcular">Calcular Kv:</button>
+        <p id="resultado">Resultado: </p>
+            <ul id="historico">
+                Historico
+            </ul>
+    </section>
+    
     <script src="posic2.js"></script>
+    <script src="calculadora.js"></script>
 </body>
 </html>

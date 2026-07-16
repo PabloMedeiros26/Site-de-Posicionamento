@@ -9,7 +9,7 @@ let secao
 let categoriaatual = ''
 
  buscar.addEventListener('input', () =>{
-            secao = document.querySelectorAll('section') // sera usado para procurar todas as seçoes na pagina
+            secao = document.querySelectorAll('section[data-categoria]') // sera usado para procurar todas as seçoes na pagina
             const palavra = buscar.value.split(' ')
             secao.forEach(incidencia => { // aqui o foreach vai fazer uma busca por todas as sections
                 const nome = incidencia.getAttribute('data-nome')
@@ -27,7 +27,7 @@ let categoriaatual = ''
         })
 
 function mostrarCategoria(procurar) {
-    secao = document.querySelectorAll('section')
+    secao = document.querySelectorAll('section[data-categoria]')
     
     inicial.style.display = 'none'
     incidencias.style.display = 'block'
@@ -42,9 +42,16 @@ function mostrarCategoria(procurar) {
             incidencia.style.display = 'none'
         }
     })
+
+        const calculadora = document.getElementById('calculadora')
+        if(calculadora) {
+            calculadora.classList.remove('aberto')
+        }
     
     categoriaatual = procurar
 }
+
+
 sup.addEventListener('click', () => mostrarCategoria('membros superiores'))
 inf.addEventListener('click', () => mostrarCategoria('membros inferiores'))
 
@@ -54,6 +61,11 @@ inf.addEventListener('click', () => mostrarCategoria('membros inferiores'))
             incidencias.style.display = 'none'
             document.getElementById('container').style.display = 'none'
          })
+
+         const calculadora = document.getElementById('calculadora')
+         if(calculadora) {
+            calculadora.classList.remove('aberto')
+         }
 
 function normalizar(texto) {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
